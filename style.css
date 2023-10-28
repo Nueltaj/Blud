@@ -1,0 +1,84 @@
+body {
+    font-size: 15pt;
+    background: url(/back.jpg);
+    background-repeat: repeat;
+    font-family: fantasy;
+    
+}
+nav{
+        
+        font-style: bolder;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3em;
+}
+nav >ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        border: 0px  solid black ;
+        text-align: center ;
+        background:black ;
+        color: grey;
+        margin-top: 5px;
+        
+
+        
+}
+nav li{
+        display: inline;
+        line-height: 50pt;
+        padding-right: 3px;
+}     
+nav a{
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        color: whitesmoke;
+}
+a:hover {
+        background: grey ;
+        
+} 
+h1{
+        font-family:serif;
+}
+a{
+        color: blue;
+        
+}
+.pic{
+        display: flex;
+        justify-content: center ;
+        
+
+        
+}
+img{
+        
+        width: 220px;
+        height:200px;
+        
+        
+}  
+.nuel{
+        margin-left: 25%;
+        margin-right: 25px;
+        background-color: lightgoldenrodyellow;
+        border:5px solid black;
+
+        
+}
+.enny{
+        margin-right: 25%;
+        margin-left: 25px;
+        background-color: lightgoldenrodyellow;
+        border:5px solid black;
+
+        
+}
+.name {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: fantasy;
+}
